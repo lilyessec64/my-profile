@@ -1,0 +1,134 @@
+body {
+	background-color: rgb(255, 209, 218) ;
+	color: rgb(30, 30, 30);
+	font-family: Times, serif;
+	font-size: 17px
+}
+
+h1, h2, h3 {
+	color: rgb(231, 84, 128);
+}
+
+h1 { 
+	font-size: 45px;
+	letter-spacing:5px;
+	font-weight: 900;
+	text-justify:center;
+ }
+
+ h2 {
+ 	color: rgb(231,84,128);
+ 	font-weight: 550;
+ 	text-justify: center;
+ }
+
+h3 { 
+	font-size: 20px
+	text-justify:center;
+ }
+
+h4 {
+ 	color: rgb(231,84,128);
+ 	font-weight: 550;
+	text-justify: center;
+}
+
+a{ text-decoration:none;
+	color: rgb(231, 84, 128);
+}
+a:hover{
+	color:purple;
+	text-decoration: underline;
+}
+
+p{
+	color: purple;
+}
+
+
+.container {
+	width: 1325px;
+	margin: 40px;
+	box-sizing: border-box;
+}
+
+.card1 {
+	background-color: rgb(255, 209, 218);
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgb(231, 84, 128);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.card2 {
+	background-color:rgb(255, 209, 218);
+	padding:30px;
+	box-shadow: 0px 10px 30px rgb(231, 84, 128);
+	border-radius:4px;
+	margin: 20px 0px;
+	text-align: left;
+}
+
+.petite-boite1 {
+  width: 500px; 
+  height: 550px; 
+  background-color: rgb(255, 209, 218) ; 
+  border: 1px solid purple; 
+  display: inline-block;
+  margin: 15px 10px;
+  box-shadow: 2px 2px 5px rgb(231, 84,128);
+
+ }
+
+ .petite-boite2 {
+  width: 500px; 
+  height: 550px; 
+  background-color: rgb(255, 209, 218) ; 
+  border: 1px solid purple; 
+  display: inline-block;
+  margin: 15px;
+  box-shadow: 2px 2px 5px rgb(231, 84,128);
+ }
+
+ .petite-boite3 {
+  width: 500px; 
+  height: 550px; 
+  background-color: rgb(255, 209, 218) ; 
+  border: 1px solid purple; 
+  display: inline-block;
+  margin: 15px;
+  box-shadow: 2px 2px 5px rgb(231, 84,128);
+ }
+
+.conteneur-logos {
+  text-align: center; 
+}
+
+.logo {
+  display: inline-block;
+  font-size: 24px; 
+  margin: 0 10px; 
+}
+
+#lienimage {
+	width: 200px
+}
+
+#banner {
+	color: pink;
+	border: solid purple;
+
+}
+#photo{
+	width: 200px
+}
+
+#soccer{
+	width: 400px
+}
+
+#running{
+	width: 200px
+}
